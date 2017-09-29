@@ -89,4 +89,4 @@ ENV/
 .ropeproject
 
 oshc/db.sqlite3
-staticfiles
+staticfiles/
