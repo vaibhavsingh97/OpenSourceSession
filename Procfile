@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath oshc oshc.wsgi --log-file -
+web: gunicorn --pythonpath OpenSourceSession OpenSourceSession.wsgi --log-file -
