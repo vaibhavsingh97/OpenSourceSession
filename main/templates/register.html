@@ -48,25 +48,25 @@
           <form action="/register/" method="post">
             {% csrf_token %}
                 <h4>
-                    <label for="id_subject">Name:</label>
-                    <input style="width: 100%;" id="id_subject" type="text" name="name" maxlength="100" required />
+                    <label for="id_name">Name:</label>
+                    <input style="width: 100%;" id="id_name" type="text" name="name" maxlength="100" required />
                 </h4>
                 <h4>
-                    <label for="id_subject">Email:</label>
-                    <input style="width: 100%;" id="id_subject" type="email" name="email" required />
+                    <label for="id_email">Email:</label>
+                    <input style="width: 100%;" id="id_email" type="email" name="email" required />
                 </h4>
                 <h4>
-                    <label for="id_subject">Branch:</label>
-                    <input style="width: 100%;" id="id_subject" type="text" name="branch" required />
+                    <label for="id_branch">Branch:</label>
+                    <input style="width: 100%;" id="id_branch" type="text" name="branch" required />
                 </h4>
                 <h4>
-                    <label for="id_subject">Year:</label>
-                    <input style="width: 100%;" id="id_subject" type="number" name="year" required />
+                    <label for="id_year">Year:</label>
+                    <input style="width: 100%;" id="id_year" type="number" name="year" required />
                 </h4>
                 <h4>
-                    <label for="id_subject">Github Url:</label>
-                    <input style="width: 100%;" id="id_subject" type="url" name="github_url" required />
-                    <p class="help-block" style="font-size: medium; color: #0f0f0f;">If you don't have github account, Create a new one :)</p>
+                    <label for="id_github">Github Url:</label>
+                    <input style="width: 100%;" id="id_github" type="url" name="github_url" required />
+                    <p class="help-block" style="font-size: medium; color: #0f0f0f;">Tip: Create a new account and ready to learn new things at the event :)</p>
                 </h4>
           <br>
             <input type="submit" value="Submit" class="btn btn-primary" style="width: 100%;height: 50px;" />
