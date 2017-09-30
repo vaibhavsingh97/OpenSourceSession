@@ -52,6 +52,13 @@ a:hover, a:focus, a:active, a:visited {
 	text-align: center;
 }
 
+.github-fork-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
 /* ------------------
 	Navigation 
 ------------------ */
