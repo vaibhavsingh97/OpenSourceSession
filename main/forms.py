@@ -1,10 +1,10 @@
 from django import forms
 
-# our new form
-class RegisterForm(forms.Form):
-    contact_name = forms.CharField(required=True)
-    contact_email = forms.EmailField(required=True)
-    content = forms.CharField(
-        required=True,
-        widget=forms.Textarea
-    )
+from main.models import StudentRegisterationForm
+
+
+class RegistrationForm(forms.ModelForm):
+
+    class Meta:
+        model = StudentRegisterationForm
+        fields = ('name', 'email', 'branch', 'year', 'github_url')
