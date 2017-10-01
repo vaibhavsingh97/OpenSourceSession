@@ -9,3 +9,6 @@ class StudentRegisterationForm(models.Model):
 
     def save(self, *args, **kwargs):
         super(StudentRegisterationForm, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name

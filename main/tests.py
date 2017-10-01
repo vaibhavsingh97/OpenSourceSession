@@ -1,8 +1,7 @@
 from django.test import TestCase, SimpleTestCase
 from django.test import Client
-from .forms import RegistrationForm
-from .models import StudentRegisterationForm
-from django.urls import reverse
+from main.forms import RegistrationForm
+from main.models import StudentRegisterationForm
 
 class HomeViewTests(SimpleTestCase):
 
