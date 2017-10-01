@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/vaibhavsingh97/OpenSourceSession.svg?branch=master)](https://travis-ci.org/vaibhavsingh97/OpenSourceSession)
 [![Requirements Status](https://requires.io/github/vaibhavsingh97/OpenSourceSession/requirements.svg?branch=master)](https://requires.io/github/vaibhavsingh97/OpenSourceSession/requirements/?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/vaibhavsingh97/OpenSourceSession/badge.svg?branch=master)](https://coveralls.io/github/vaibhavsingh97/OpenSourceSession?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://vaibhavsingh97.mit-license.org/)
 
 
