@@ -1,0 +1,21 @@
+{
+  "name": "OpenSourceSession",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "ENV_ROLE": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
